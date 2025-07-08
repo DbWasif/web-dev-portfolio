@@ -52,3 +52,39 @@ nav ul{
     display: flex;
     align-items: center;
 }
+
+
+/* header */
+header{
+    background-image: url('../portfolio-resources/images/developer.png'), url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin: 30px 0 0 30px;
+}
+
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 100px;
+}
+
+.banner-greetings{
+    font-weight: 600px;
+    font-size: 35px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.banner-profile-pic{
+    width: 580px;
+    height: 670px;
+}
+
+.banner-content{
+    width: 580px;
+    height: 350px;
+}
