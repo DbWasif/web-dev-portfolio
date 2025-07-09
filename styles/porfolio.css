@@ -110,7 +110,9 @@ header{
     font-weight: bold;
     font-size: 80px;
 }
-
+.banner-discription{
+    margin-bottom: 30px;
+}
 .banner-profile-pic{
     width: 580px;
     height: 670px;
@@ -170,4 +172,73 @@ main section{
 .skill-title{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+.skill-description{
+    font-size: 16px;
+    color: #474747;
+}
+
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-title{
+    padding-bottom: 50px;
+}
+.resume-colum-title{
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.experience-sub-title{
+    font-size: 20px;
+}
+.experience-sub-title, .experience-description{
+    color: #757575;
+}
+.experience-description{
+    font-size: 16px;
+    padding: 20px 0 30px 0;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.resume hr{
+    margin-bottom: 30px;
+}
+.resume-doenload-CV{
+    margin-top: 50px;
+}
+
+/* footer styles */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+footer textarea{
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    border: none;
+}
+.form-btn{
+    margin-top: 24px;
 }
