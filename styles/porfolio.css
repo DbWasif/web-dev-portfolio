@@ -253,3 +253,14 @@ footer textarea{
 .hide{
     display: none;
 }
+@media screen and (max-width: 576px) {
+    .skills-items, .resume-container, footer{
+        flex-direction: column;
+    }
+    footer{
+        padding: 20px;
+    }
+    .footer-column{
+        width: calc(100% - 40px);
+    }
+}
