@@ -248,3 +248,8 @@ footer textarea{
 .mid-icon{
     padding: 0 24px;
 }
+
+/* Responsive Media Query */
+.hide{
+    display: none;
+}
