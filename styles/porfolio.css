@@ -260,6 +260,9 @@ footer textarea{
     nav ul{
         gap: 20px;
     }
+    nav h3{
+        margin-bottom: 20px;
+    }
     nav ul li{
         margin: 0 auto;
     }
