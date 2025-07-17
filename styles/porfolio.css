@@ -251,9 +251,6 @@ footer textarea{
 }
 
 /* Responsive Media Query */
-.hide{
-    display: none;
-}
 @media screen and (max-width: 576px) {
     .skills-items, .resume-container, footer, 
     .about-items, nav, nav ul, 
